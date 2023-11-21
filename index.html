@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/431ff31e55.js" crossorigin="anonymous">
+
+    </script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img style="height: 70px ;" src="Image/shakir-high-resolution-logo-white.jpg" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <button  class="btn btn2 "><li><a href="#contact">Hire me</a></li></button>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <div>
+            <p>Software Developer</p>
+            <h1>
+              Hi, I'm <span>Shakir Khan</span><br />
+              From India
+            </h1>
+          </div>
+
+          <div class="photo">
+            <img class="imgg" src="Image/bg.JPG" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="Image/photo_2022-06-14_16-26-27 (3).jpg" alt="" />
+          </div>
+
+          <!------------about me------------>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Hello! I am MD SHAKIR KHAN, a passionate and motivated software developer eager to embark on a dynamic career in the tech industry. I recently graduated with a BTech from Bengal College Of Engineering And Technology, where I gained a solid foundation in computer science and honed my programming skills.</p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('projects')">Projects</p>
+              <p class="tab-links" onclick="opentab('educations')">
+                Educations
+              </p>
+            </div>
+            <div class="same-tab active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                <li><span>Web Developer</span><br />Web App Development</li>
+                <li>
+                  <span>Software Developer</span><br />Building Android/ios apps
+                </li>
+              </ul>
+            </div>
+            <div class="same-tab" id="projects">
+              <ul>
+                <li>
+                  <span>Personal Portfolio</span><br />Responsive Portfolio
+                </li>
+                <li>
+                  <span>Bank Web Page</span><br />User Interface of Bank Website
+                </li>
+                <li>
+                  <span>Weather App</span><br />Weather report of Global Cities
+                </li>
+              </ul>
+            </div>
+            <div class="same-tab" id="educations">
+              <ul>
+                <li><span>2019-2023</span><br />Btech from BCET durgapur</li>
+                <li>
+                  <span>2019</span><br />Senior Secondary From Kendriya
+                  Vidyalaya
+                </li>
+                <li>
+                  <span>2017</span><br />Matriculation from A A M Children's
+                  Academy
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------------------services----------->
+    <div id="services">
+      <div class="container">
+        <h2 class="sub-title">My Services</h2>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Asperiores ipsam voluptatem numquam dolore placeat, necessitatibus
+              ratione reiciendis voluptatum!
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI Design</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Asperiores ipsam voluptatem numquam dolore placeat, necessitatibus
+              ratione reiciendis voluptatum!
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>APP Design</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Asperiores ipsam voluptatem numquam dolore placeat, necessitatibus
+              ratione reiciendis voluptatum!
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------portfolio--------------->
+    <div id="portfolio">
+      <div class="container">
+        <h2 class="sub-title">My Work</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="Image/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world. Download it from play store </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Image/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world. Download it from play store </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Image/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world. Download it from play store </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!----------contact--------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                <h2 class="sub-title">Hire Me</h2>
+                <p><i class="fa-solid fa-envelope fa-bounce"></i>shakirkhan4u30@gmail.com</p>
+                <p><i class="fa-solid fa-phone fa-fade"></i>+91 7257952695</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/chiku4u420" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/shakir-khan-24abaa203/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/khanshaki-r" target="_blank"><i class="fa-brands fa-github fa-beat"></i></a>
+                </div>
+                <a href="Image/My-cv.pdf" download class ="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2 ">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <p>Developed by SHAKIR <i class="fa-solid fa-shield-heart fa-flip"></i>KHAN</p>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var sametabs = document.getElementsByClassName("same-tab");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (sametab of sametabs) {
+          sametab.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxJtNYrY6gnM7zZxS_qMw7XmLGNfTCuecoHVVyGV7bF495MFcYW0iA8Jg3PiLNoKdy2/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  </body>
+</html>
